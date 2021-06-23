@@ -1,0 +1,4 @@
+C:\Users\10190\Downloads\SynFlooder-master\SynFlooder-master\SynFlooder\obj\x86\Debug\SynFlooder.Form1.resources
+C:\Users\10190\Downloads\SynFlooder-master\SynFlooder-master\SynFlooder\obj\x86\Debug\SynFlooder.Properties.Resources.resources
+C:\Users\10190\Downloads\SynFlooder-master\SynFlooder-master\SynFlooder\obj\x86\Debug\SynFlooder.csproj.GenerateResource.cache
+C:\Users\10190\Downloads\SynFlooder-master\SynFlooder-master\SynFlooder\obj\x86\Debug\SynFlooder.csproj.CoreCompileInputs.cache

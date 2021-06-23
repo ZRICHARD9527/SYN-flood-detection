@@ -1,0 +1,582 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "MetroFramework/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.Design": "1.2.0.3",
+          "MetroFramework.Fonts": "1.2.0.3",
+          "MetroFramework.RunTime": "1.2.0.3"
+        }
+      },
+      "MetroFramework.Design/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        }
+      },
+      "MetroFramework.Fonts/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "compile": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        }
+      },
+      "MetroFramework.RunTime/1.2.0.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props": {}
+        }
+      },
+      "Pcap.Net.x86/1.0.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win": {
+      "MetroFramework/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.Design": "1.2.0.3",
+          "MetroFramework.Fonts": "1.2.0.3",
+          "MetroFramework.RunTime": "1.2.0.3"
+        }
+      },
+      "MetroFramework.Design/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        }
+      },
+      "MetroFramework.Fonts/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "compile": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        }
+      },
+      "MetroFramework.RunTime/1.2.0.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props": {}
+        }
+      },
+      "Pcap.Net.x86/1.0.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x64": {
+      "MetroFramework/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.Design": "1.2.0.3",
+          "MetroFramework.Fonts": "1.2.0.3",
+          "MetroFramework.RunTime": "1.2.0.3"
+        }
+      },
+      "MetroFramework.Design/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        }
+      },
+      "MetroFramework.Fonts/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "compile": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        }
+      },
+      "MetroFramework.RunTime/1.2.0.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props": {}
+        }
+      },
+      "Pcap.Net.x86/1.0.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win-x86": {
+      "MetroFramework/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.Design": "1.2.0.3",
+          "MetroFramework.Fonts": "1.2.0.3",
+          "MetroFramework.RunTime": "1.2.0.3"
+        }
+      },
+      "MetroFramework.Design/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Design.dll": {}
+        }
+      },
+      "MetroFramework.Fonts/1.2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "MetroFramework.RunTime": "1.2.0.3"
+        },
+        "compile": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        },
+        "runtime": {
+          "lib/net40/MetroFramework.Fonts.dll": {}
+        }
+      },
+      "MetroFramework.RunTime/1.2.0.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/MetroFramework.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.8": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props": {}
+        }
+      },
+      "Pcap.Net.x86/1.0.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PcapDotNet.Base.dll": {},
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {},
+          "lib/net45/PcapDotNet.Core.dll": {},
+          "lib/net45/PcapDotNet.Packets.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MetroFramework/1.2.0.3": {
+      "sha512": "PldREwx2yJ9GFXoR4IsXgsrTuOOEL1c5qZYeIfv9SVCSd7cJobmNRDHo+2v78E6U1lIWHM+ZIceZEETdOj0+oA==",
+      "type": "package",
+      "path": "metroframework/1.2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/MetroFramework.txt",
+        "README.TXT",
+        "metroframework.1.2.0.3.nupkg.sha512",
+        "metroframework.nuspec"
+      ]
+    },
+    "MetroFramework.Design/1.2.0.3": {
+      "sha512": "JhXzz2m1ofJu+vcqxib1s9nmI1akoDHTRweNISsVcvk38bVabqHpwrTpwvz3z4lcwqIe19/B6M4Rrk5uXdNmhA==",
+      "type": "package",
+      "path": "metroframework.design/1.2.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.TXT",
+        "Tools/install.ps1",
+        "lib/net40/MetroFramework.Design.dll",
+        "metroframework.design.1.2.0.3.nupkg.sha512",
+        "metroframework.design.nuspec"
+      ]
+    },
+    "MetroFramework.Fonts/1.2.0.3": {
+      "sha512": "5PAtJsIKfg4bzXPH3MeS4UFDxc4bgCe9yEEg+HS9+lOuwdChpMtawFw0XK4/u7OZxnCfkcHbnjTpu4IUpBBsfA==",
+      "type": "package",
+      "path": "metroframework.fonts/1.2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.TXT",
+        "lib/net40/MetroFramework.Fonts.dll",
+        "metroframework.fonts.1.2.0.3.nupkg.sha512",
+        "metroframework.fonts.nuspec"
+      ]
+    },
+    "MetroFramework.RunTime/1.2.0.3": {
+      "sha512": "7AFviJ+uFd/jApvUzOU8mMzl3NCj/sjIKQgCeJqqEEc78R6LoOTH+qGFZBRIEV+6nqgt9h2Y/ei6xVkTNZ3sJA==",
+      "type": "package",
+      "path": "metroframework.runtime/1.2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.TXT",
+        "lib/net40-Client/MetroFramework.dll",
+        "metroframework.runtime.1.2.0.3.nupkg.sha512",
+        "metroframework.runtime.nuspec"
+      ]
+    },
+    "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.8": {
+      "sha512": "iSjqkECKpagJPjzc7sMjD6rQWSznVYqTfUZ96yR0r0jDzA45TymBof350tlOfGDRvn4OrU/KKJav21/oZDttrA==",
+      "type": "package",
+      "path": "microsoft.codeanalysis.versioncheckanalyzer/2.9.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.rtf",
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/Microsoft.CodeAnalysis.VersionCheckAnalyzer.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/de/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/es/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/fr/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/it/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/ja/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/ko/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/pl/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/pt-BR/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/ru/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/tr/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/zh-Hans/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "analyzers/dotnet/zh-Hant/Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll",
+        "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props",
+        "documentation/Analyzer Configuration.md",
+        "documentation/Microsoft.CodeAnalysis.VersionCheckAnalyzer.md",
+        "documentation/Microsoft.CodeAnalysis.VersionCheckAnalyzer.sarif",
+        "editorconfig/AllRulesDefault/.editorconfig",
+        "editorconfig/AllRulesDisabled/.editorconfig",
+        "editorconfig/AllRulesEnabled/.editorconfig",
+        "editorconfig/DataflowRulesDefault/.editorconfig",
+        "editorconfig/DataflowRulesEnabled/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
+        "editorconfig/ReliabilityRulesDefault/.editorconfig",
+        "editorconfig/ReliabilityRulesEnabled/.editorconfig",
+        "microsoft.codeanalysis.versioncheckanalyzer.2.9.8.nupkg.sha512",
+        "microsoft.codeanalysis.versioncheckanalyzer.nuspec",
+        "rulesets/AllRulesDefault.ruleset",
+        "rulesets/AllRulesDisabled.ruleset",
+        "rulesets/AllRulesEnabled.ruleset",
+        "rulesets/DataflowRulesDefault.ruleset",
+        "rulesets/DataflowRulesEnabled.ruleset",
+        "rulesets/PortedFromFxCopRulesDefault.ruleset",
+        "rulesets/PortedFromFxCopRulesEnabled.ruleset",
+        "rulesets/ReliabilityRulesDefault.ruleset",
+        "rulesets/ReliabilityRulesEnabled.ruleset",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Pcap.Net.x86/1.0.4.1": {
+      "sha512": "XRkiDvDs9Gx5i3wCaL2a8/i/BSG3ZX3oe0i75PR8eqEx3ZZE7+hkHZKRMKpc6EIhuZXH2v8ptwrpKr3wQN43Bg==",
+      "type": "package",
+      "path": "pcap.net.x86/1.0.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/PcapDotNet.Base.dll",
+        "lib/net45/PcapDotNet.Base.pdb",
+        "lib/net45/PcapDotNet.Base.xml",
+        "lib/net45/PcapDotNet.Core.Extensions.XML",
+        "lib/net45/PcapDotNet.Core.Extensions.dll",
+        "lib/net45/PcapDotNet.Core.Extensions.pdb",
+        "lib/net45/PcapDotNet.Core.dll",
+        "lib/net45/PcapDotNet.Core.pdb",
+        "lib/net45/PcapDotNet.Core.xml",
+        "lib/net45/PcapDotNet.Packets.dll",
+        "lib/net45/PcapDotNet.Packets.pdb",
+        "lib/net45/PcapDotNet.Packets.xml",
+        "license.txt",
+        "pcap.net.x86.1.0.4.1.nupkg.sha512",
+        "pcap.net.x86.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "MetroFramework >= 1.2.0.3",
+      "MetroFramework.Design >= 1.2.0.3",
+      "MetroFramework.Fonts >= 1.2.0.3",
+      "MetroFramework.RunTime >= 1.2.0.3",
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer >= 2.9.8",
+      "Pcap.Net.x86 >= 1.0.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HZRIC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Classfile\\大三\\网络协议编程\\大作业\\201858080232-周锐淇-SYN洪泛攻击检测工具的设计与实现\\其他文件\\SynFlooder\\SynFlooder\\SynFlooder.csproj",
+      "projectName": "SynFlooder",
+      "projectPath": "E:\\Classfile\\大三\\网络协议编程\\大作业\\201858080232-周锐淇-SYN洪泛攻击检测工具的设计与实现\\其他文件\\SynFlooder\\SynFlooder\\SynFlooder.csproj",
+      "packagesPath": "C:\\Users\\HZRIC\\.nuget\\packages\\",
+      "outputPath": "E:\\Classfile\\大三\\网络协议编程\\大作业\\201858080232-周锐淇-SYN洪泛攻击检测工具的设计与实现\\其他文件\\SynFlooder\\SynFlooder\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\HZRIC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "MetroFramework": {
+            "target": "Package",
+            "version": "[1.2.0.3, )"
+          },
+          "MetroFramework.Design": {
+            "target": "Package",
+            "version": "[1.2.0.3, )"
+          },
+          "MetroFramework.Fonts": {
+            "target": "Package",
+            "version": "[1.2.0.3, )"
+          },
+          "MetroFramework.RunTime": {
+            "target": "Package",
+            "version": "[1.2.0.3, )"
+          },
+          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.9.8, )"
+          },
+          "Pcap.Net.x86": {
+            "target": "Package",
+            "version": "[1.0.4.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.runtime/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.runtime/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.fonts/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.fonts/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/pcap.net.x86/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/pcap.net.x86/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.design/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.design/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.fonts/1.2.0.3/metroframework.fonts.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.fonts/1.2.0.3/metroframework.fonts.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.design/1.2.0.3/metroframework.design.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.design/1.2.0.3/metroframework.design.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/2.9.8/microsoft.codeanalysis.versioncheckanalyzer.2.9.8.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/2.9.8/microsoft.codeanalysis.versioncheckanalyzer.2.9.8.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework/1.2.0.3/metroframework.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework/1.2.0.3/metroframework.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.runtime/1.2.0.3/metroframework.runtime.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.runtime/1.2.0.3/metroframework.runtime.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    }
+  ]
+}

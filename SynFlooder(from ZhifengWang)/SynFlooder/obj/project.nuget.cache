@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "dgSpecHash": "TJU5lbQ8/EKdueAnrt02hG/v024o0oiFTuOMVe3Vb77t5swfM7nT1XlIDWwLFJ7M0YJHOKK39WeMhsVkZAqW2g==",
+  "success": true,
+  "projectFilePath": "E:\\Classfile\\大三\\网络协议编程\\大作业\\201858080232-周锐淇-SYN洪泛攻击检测工具的设计与实现\\其他文件\\SynFlooder\\SynFlooder\\SynFlooder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HZRIC\\.nuget\\packages\\metroframework\\1.2.0.3\\metroframework.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\HZRIC\\.nuget\\packages\\metroframework.design\\1.2.0.3\\metroframework.design.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\HZRIC\\.nuget\\packages\\metroframework.fonts\\1.2.0.3\\metroframework.fonts.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\HZRIC\\.nuget\\packages\\metroframework.runtime\\1.2.0.3\\metroframework.runtime.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\HZRIC\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\2.9.8\\microsoft.codeanalysis.versioncheckanalyzer.2.9.8.nupkg.sha512",
+    "C:\\Users\\HZRIC\\.nuget\\packages\\pcap.net.x86\\1.0.4.1\\pcap.net.x86.1.0.4.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.runtime/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.runtime/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.fonts/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.fonts/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/pcap.net.x86/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/pcap.net.x86/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.design/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.design/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework/index.json 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework/index.json”处的内容不是有效的 JSON 对象。\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.fonts/1.2.0.3/metroframework.fonts.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.fonts/1.2.0.3/metroframework.fonts.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.design/1.2.0.3/metroframework.design.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.design/1.2.0.3/metroframework.design.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/2.9.8/microsoft.codeanalysis.versioncheckanalyzer.2.9.8.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.versioncheckanalyzer/2.9.8/microsoft.codeanalysis.versioncheckanalyzer.2.9.8.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework/1.2.0.3/metroframework.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework/1.2.0.3/metroframework.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "为 URL https://api.nuget.org/v3-flatcontainer/metroframework.runtime/1.2.0.3/metroframework.runtime.1.2.0.3.nupkg 找到无效的缓存条目，将替换该条目。\r\n“https://api.nuget.org/v3-flatcontainer/metroframework.runtime/1.2.0.3/metroframework.runtime.1.2.0.3.nupkg”处的 nupkg 无效。\r\n  找不到中央目录结尾记录。"
+    }
+  ]
+}
